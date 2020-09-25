@@ -1,0 +1,21 @@
+.animals{
+display:flex;
+flex-wrap:wrap;
+justify-content:center; 
+}
+img{
+width:400px;
+height:300px;
+margin:10px;
+box-shadow:5px 5px 5px #000000;
+transition:width 3s,height 5s,transform 4s;
+}
+img:hover{
+transform:rotate(180deg);
+}
+h1{
+width:200px;
+text-align:center;
+border-right:5px solid green;
+border-left:5px solid green;
+}
