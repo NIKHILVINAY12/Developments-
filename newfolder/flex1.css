@@ -1,0 +1,29 @@
+.animals{
+display:flex;
+flex-wrap:wrap;
+justify-content:center; 
+}
+img{
+width:400px;
+height:300px;
+margin:10px;
+box-shadow:5px 5px 5px #a5a5a5;
+transition:width 3s,height 5s,transform 4s;
+}
+img:hover{
+transform:skew(20deg,45deg) scale(.20);
+}
+h1{
+font-size:50px;
+width:400px;
+text-align:center;
+border-right:5px solid green;
+border-left:5px solid green;
+}
+#x:hover{
+width:500px;
+text-decoration:underline;
+font-size:70px;
+text-transform:uppercase;
+background-color:#75f2e7;
+}
